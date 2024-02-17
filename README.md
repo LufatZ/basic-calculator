@@ -1,2 +1,2 @@
 # basic-calculator
-Java program that implements a simple calculator that allows the user to perform various arithmetic operations.
+This Java programme implements a simple calculator that allows the user to perform various arithmetic operations. The user is asked to select an operation (such as addition, subtraction, multiplication or division) and then to enter two numbers. The programme performs the selected operation and displays the result. The user is then asked if they would like to perform another operation. The programme continues until the user decides to exit.
