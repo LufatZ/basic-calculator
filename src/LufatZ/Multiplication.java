@@ -1,5 +1,7 @@
-public class Addition extends Calculation {
-    public Addition(char operator) {
+package LufatZ;
+
+public class Multiplication extends Calculation {
+    public Multiplication(char operator) {
         super(operator);
     }
 
@@ -11,7 +13,7 @@ public class Addition extends Calculation {
                 result = numbers.get(0);
             } else {
                 System.out.println(operator + " " + number);
-                result += number;
+                result *= number;
             }
         }
         Calculation.result(result);
